@@ -3,6 +3,7 @@ import data from './MovieData.json';
 
 const mds = data.MovieDataList;
 
+// MovieList function that lists out all the movies in MovieDataSample.json file
 function MovieList() {
   const [listOMovies, setListOMovies] = useState(mds);
 

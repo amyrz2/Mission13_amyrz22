@@ -1,19 +1,24 @@
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-//import { LinkContainer } from 'react-router-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-function Header() {
+// NavigationBar for website that will link to various methods
+function NavigationBar() {
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="/home">Joel's Movies</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link>Home</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
+      <Container>
+        <Navbar.Brand href="home">Joel's Movies</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="home">Home</Nav.Link>
+            <Nav.Link href="podcast">Podcast</Nav.Link>
+            <Nav.Link href="listMovies">All Movies</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
 }
 
-export default Header;
+export default NavigationBar;
