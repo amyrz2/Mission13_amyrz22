@@ -23,10 +23,8 @@ function TopBanner(props: any) {
               </div>
               <div className="col align-self-center text-start text-center">
                 <h1 className={styles.h1}>{props.saying}</h1>
-                <h3>
-                  Welcome to my website to keep track of my ever-expanding movie
-                  collection.
-                </h3>
+                <h3>Welcome to my website to keep track of</h3>
+                <h3>my ever-expanding movie collection.</h3>
               </div>
               <div className="col-2 mx-auto">
                 <img
