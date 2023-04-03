@@ -15,6 +15,8 @@ function App() {
   const path = window.location.pathname;
   let content;
 
+  content = <TopBanner saying="Joel Hilton's Movie Collection" />;
+
   if (path === '/listMovies') {
     content = <MovieList />;
   } else if (path === '/home') {
