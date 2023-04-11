@@ -8,7 +8,6 @@ import TopBanner from './blah';
 import MovieList from './movies';
 import NavigationBar from './nav';
 import PodcastPage from './podcast';
-import MovieListSQL from './movie/MovieListSQL';
 
 // main App function
 // checks path in the nav bar and links it to different functions through content variable
@@ -31,7 +30,6 @@ function App() {
       <NavigationBar />
       <br></br>
       {content}
-      <MovieListSQL />
     </div>
   );
 }

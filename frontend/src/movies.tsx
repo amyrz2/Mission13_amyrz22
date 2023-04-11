@@ -1,62 +1,54 @@
-import { useState } from 'react';
-import data from './MovieData.json';
+import { useEffect, useState } from 'react';
+import { Movie } from '../src/types/movieModel';
 
-const mds = data.MovieDataList;
+function MovieListSQL() {
+  const [movieData, setMovieData] = useState<Movie[]>([]);
 
-// MovieList function that lists out all the movies in MovieDataSample.json file
-function MovieList() {
-  const [listOMovies, setListOMovies] = useState(mds);
-
-  const addMovie = () => {
-    setListOMovies([
-      ...mds,
-      {
-        Category: 'Action/Adventure',
-        Title: 'Batman Returns',
-        Year: 1992,
-        Director: 'Tim Burton',
-        Rating: 'PG-13',
-      },
-    ]);
-  };
+  useEffect(() => {
+    const fetchMovie = async () => {
+      const rsp = await fetch('https://localhost:4000/movie');
+      const temp = await rsp.json();
+      setMovieData(temp);
+    };
+    fetchMovie();
+  }, []);
 
   return (
     <>
-      <div>
-        <h3>Joel Hilton's Movie Collection</h3>
-      </div>
-      <div>
-        <table className="table">
+      <div className="row">
+        <h4>My Wonderful Movie Collection</h4>
+
+        <table className="table table-border">
           <thead>
             <tr>
+              <th>Category</th>
               <th>Title</th>
               <th>Year</th>
               <th>Director</th>
               <th>Rating</th>
-              <th>Category</th>
               <th>Edited</th>
+              <th>Lent To</th>
+              <th>Notes</th>
             </tr>
           </thead>
           <tbody>
-            {listOMovies.map((m) => (
+            {movieData.map((m) => (
               <tr>
+                <td>{m.Category}</td>
                 <td>{m.Title}</td>
                 <td>{m.Year}</td>
                 <td>{m.Director}</td>
                 <td>{m.Rating}</td>
-                <td>{m.Category}</td>
                 <td>{m.Edited}</td>
+                <td>{m.LentTo}</td>
+                <td>{m.Notes}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-
-      <button className="btn btn-primary" onClick={addMovie}>
-        Add Movie
-      </button>
     </>
   );
 }
 
-export default MovieList;
+export default MovieListSQL;
