@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaddieAPI", "BaddieAPI.csproj", "{24AF3E00-0C0D-46DA-A1BF-667FF814471B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24AF3E00-0C0D-46DA-A1BF-667FF814471B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AF3E00-0C0D-46DA-A1BF-667FF814471B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AF3E00-0C0D-46DA-A1BF-667FF814471B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AF3E00-0C0D-46DA-A1BF-667FF814471B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54A66E59-2A94-4A9F-8C29-7B5D7E17A06B}
+	EndGlobalSection
+EndGlobal

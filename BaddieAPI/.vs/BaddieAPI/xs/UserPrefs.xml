@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{24AF3E00-0C0D-46DA-A1BF-667FF814471B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BaddieAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Controllers/FoodController.cs" Line="33" Column="12" />
+      <File FileName="Program.cs" Line="33" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaddieAPI" expanded="True">
+            <Node name="BaddieAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="Data" expanded="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
