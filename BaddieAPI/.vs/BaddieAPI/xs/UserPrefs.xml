@@ -1,29 +1,32 @@
-﻿<Properties StartupConfiguration="{24AF3E00-0C0D-46DA-A1BF-667FF814471B}|Default">
+﻿<Properties StartupConfiguration="{24AF3E00-0C0D-46DA-A1BF-667FF814471B}|api">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BaddieAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Controllers/FoodController.cs" Line="33" Column="12" />
-      <File FileName="Program.cs" Line="33" Column="1" />
+      <File FileName="Controllers/MovieController.cs" Line="22" Column="10" />
+      <File FileName="Program.cs" Line="11" Column="18" />
+      <File FileName="appsettings.json" Line="8" Column="21" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Models/Movie.cs" Line="10" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaddieAPI" expanded="True">
             <Node name="BaddieAPI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="Data" expanded="True" />
-              </Node>
-              <Node name="Migrations" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BaddieAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

@@ -3,45 +3,13 @@
   "profiles": {
     "api": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "movie",
       "applicationUrl": "https://localhost:4000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "dotnetRunMessages": true
     }
   }
 }
-
-//{
-//  "$schema": "https://json.schemastore.org/launchsettings.json",
-//  "iisSettings": {
-//    "windowsAuthentication": false,
-//    "anonymousAuthentication": true,
-//    "iisExpress": {
-//      "applicationUrl": "http://localhost:38770",
-//      "sslPort": 44373
-//    }
-//  },
-//  "profiles": {
-//    "BaddieAPI": {
-//      "commandName": "Project",
-//      "launchBrowser": true,
-//      "launchUrl": "swagger",
-//      "applicationUrl": "https://localhost:7119;http://localhost:5160",
-//      "environmentVariables": {
-//        "ASPNETCORE_ENVIRONMENT": "Development"
-//      },
-//      "dotnetRunMessages": true
-//    },
-//    "IIS Express": {
-//      "commandName": "IISExpress",
-//      "launchBrowser": true,
-//      "launchUrl": "swagger",
-//      "environmentVariables": {
-//        "ASPNETCORE_ENVIRONMENT": "Development"
-//      }
-//    }
-//  }
-//}

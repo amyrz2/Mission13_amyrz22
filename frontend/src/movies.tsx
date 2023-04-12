@@ -33,15 +33,15 @@ function MovieListSQL() {
           </thead>
           <tbody>
             {movieData.map((m) => (
-              <tr>
-                <td>{m.Category}</td>
-                <td>{m.Title}</td>
-                <td>{m.Year}</td>
-                <td>{m.Director}</td>
-                <td>{m.Rating}</td>
-                <td>{m.Edited}</td>
-                <td>{m.LentTo}</td>
-                <td>{m.Notes}</td>
+              <tr key={m.movieId}>
+                <td>{m.category}</td>
+                <td>{m.title}</td>
+                <td>{m.year}</td>
+                <td>{m.director}</td>
+                <td>{m.rating}</td>
+                <td>{m.edited}</td>
+                <td>{m.lentTo}</td>
+                <td>{m.notes}</td>
               </tr>
             ))}
           </tbody>
